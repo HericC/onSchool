@@ -1,0 +1,134 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+ul {
+   list-style-type: none; 
+}
+
+figure {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+}
+
+img {
+    width: inherit;
+    height: auto;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.dropdown-menu.show {
+    left: -86px !important;
+}
+
+.btn-link {
+    cursor: pointer;
+}
+
+.dropdown-item:active {
+    color: initial;
+    background-color: initial;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+/* ---------- */
+
+.imgMenuPerfil {
+    width: 100px;
+    height: 100px;
+    float: none;
+    display: inline-block;
+}
+
+.imgMenuPerfil img {
+    width: inherit;
+}
+
+
+/* ---------- */
+
+#chat {
+    position: fixed;
+    right: 4%;
+    bottom: 7%;
+}
+
+#asideMenuPerfil, #asideMenuTurmas {
+    min-width: 250px;
+}
+
+/* ---------- */
+
+#listTurmas .dropdown-menu.show {
+    left: -24px !important;
+}
+
+#listTurmas li {
+    width: 100%;
+}
+
+
+#listTurmas li .btnTurmas {
+    width: inherit;
+    overflow: hidden;
+}
+
+/* #listTurmas li .imgTurmas img {
+    width: 20px;
+    transition-duration: 0.5s;
+}
+
+#listTurmas li .imgTurmas:hover img {
+    transform: rotate(65.5deg);
+    transition-duration: 0.5s;
+} */
+
+/* ---------- */
+
+.listFriends li {
+    height: 54px;
+    background-color: rgb(220, 220, 220);
+}
+
+.comentExcluir {
+background-color: #e9ecef;
+}
+
+.comentExcluir:hover {
+    background-color: #dc3545;
+}
+
+.comentExcluir a span{
+    color: #dc3545;
+}
+
+.comentExcluir:hover a span{
+    color: white;
+}
