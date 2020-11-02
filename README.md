@@ -26,7 +26,7 @@ php artisan serve
 
 ### License
 
-This project is under the MIT license - see the [LICENSE.md](<https://github.com/HericC/API_RESTFul/blob/master/LICENSE>) file for details
+This project is under the MIT license - see the [LICENSE.md](<https://github.com/HericC/onSchool/blob/master/LICENSE>) file for details
 
 ### Authors
 * [Heric Macedo Oliveira Silva](<https://github.com/HericC>)
